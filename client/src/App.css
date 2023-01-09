@@ -1,0 +1,87 @@
+body{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFA1A1;
+  font-size: 45px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFA1A1;
+  text-align: left;
+  margin: 20px;
+  font-size: 15px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information{
+  display: inline-block;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  text-align: center;
+}
+
+input {
+  margin: 6.5px;
+  width: 17%;
+  height: 50px;
+  font-size: 10px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  background: #ADD8E6;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.movies{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.movie{
+  width: 80%;
+  height: 50%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 30px;
+  display: grid;
+  width: 80%;
+  overflow-y: auto;
+}
+
+
+#delete{
+  margin: 10px;
+}
